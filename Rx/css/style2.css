@@ -31,7 +31,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    /* display: flex; */ /*this makes a difference*/
+    
 }
 
 #menu, #logo {
@@ -40,8 +40,8 @@ h1, h2 {
 
 #menu li {
     float: right;
-    margin-right: 30px;
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -56,36 +56,3 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
-/* The following solves the position and order of the 3 nav links and removes bullets:  */
-/*
- div .container {
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#main-image {
-    top: 500px;
-}
-
-.box {
-    display: flex;
-    flex-direction: row-reverse;
-    float: right;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto  auto auto auto;
-    grid-gap: 20px;
-    padding: 1px;
-}
-
-ul {
-    list-style: none;
-}
-
-ol {
-    list-style: none;
-} */
