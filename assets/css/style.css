@@ -338,3 +338,11 @@ footer {
    }
 }
 
+/* style signup page form submit button */
+
+.go-run {
+    background-color: #f16c6b;
+    color: #f0f0f0;
+    border: none;
+    padding: 15px 32px;
+}
