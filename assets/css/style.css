@@ -230,7 +230,7 @@ footer {
     display: inline;
 }
 
-.social-networks li  {
+.social-networks i  {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -294,33 +294,29 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
 
-/* The following solves the position and order of the 3 nav links and removes bullets:  */
-
- /* div .container {
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.box {
-    display: flex;
-    flex-direction: row-reverse;
-    float: right;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto  auto auto auto;
-    grid-gap: 20px;
-    padding: 1px;
-}
-
-ul {
-    list-style: none;
-}
-
-ol {
-    list-style: none;
-} */
